@@ -1,0 +1,20 @@
+[
+    {
+        "className": "timeline-icon color-1",
+        "iconClass" : "icon-pen2",
+        "title" : "Java SSr developer",
+        "startYear" : "2017",
+        "endYear" : "current",
+        "description" : "",
+        "effect" : "fadeInLeft"
+    },
+    {
+        "className": "timeline-icon color-2",
+        "iconClass" : "icon-pen2",
+        "title" : "Developer architech",
+        "startYear" : "2016",
+        "endYear" : "2017",
+        "description" : "",
+        "effect" : "fadeInRight"
+    }
+]

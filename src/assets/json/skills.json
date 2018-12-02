@@ -1,0 +1,44 @@
+[
+    {
+        "name":"Java",
+        "percentage":90,
+        "className":"progress-bar color-1",
+        "effect":"fadeInLeft",
+        "styleName" :"width:90%"
+    },
+    {
+        "name":"Spring boot",
+        "percentage":75,
+        "className":"progress-bar color-2" ,
+        "effect":"fadeInRight",
+        "styleName" :"width:75%"
+    },
+    {
+        "name":"Maven",
+        "percentage":90,
+        "className":"progress-bar color-3" ,
+        "effect":"fadeInLeft",
+        "styleName" :"width:90%"
+    },
+    {
+        "name":"Rest services",
+        "percentage":95,
+        "className":"progress-bar color-4" ,
+        "effect":"fadeInRight",
+        "styleName" :"width:95%"
+    },
+    {
+        "name":"Json",
+        "percentage":95,
+        "className":"progress-bar color-5" ,
+        "effect":"fadeInLeft",
+        "styleName" :"width:95%"
+    },
+    {
+        "name":"Swagger",
+        "percentage":60,
+        "className":"progress-bar color-6" ,
+        "effect":"fadeInRight",
+        "styleName" :"width:60%"
+    }
+]

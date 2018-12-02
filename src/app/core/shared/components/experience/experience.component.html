@@ -1,0 +1,11 @@
+<article *ngFor="let experience of experiences" class="timeline-entry animate-box" attr.data-animate-effect="{{experience.effect}}">
+  <div class="timeline-entry-inner">
+     <div class="{{experience.className}}">
+        <i class="{{experience.iconClass}}"></i>
+     </div>
+     <div class="timeline-label">
+        <h2><a href="#">{{experience.title}} </a> <span>{{experience.startYear}}-{{experience.endYear}}</span></h2>
+        <p>Tolerably earnestly middleton extremely distrusts she boy now not. Add and offered prepare how cordial two promise. Greatly who affixed suppose but enquire compact prepare all put. Added forth chief trees but rooms think may.</p>
+     </div>
+  </div>
+</article>
