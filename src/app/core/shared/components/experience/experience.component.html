@@ -1,11 +1,33 @@
-<article *ngFor="let experience of experiences" class="timeline-entry animate-box" attr.data-animate-effect="{{experience.effect}}">
-  <div class="timeline-entry-inner">
-     <div class="{{experience.className}}">
-        <i class="{{experience.iconClass}}"></i>
+<section class="colorlib-experience" data-section="experience">
+<div class="colorlib-narrow-content">
+   <div class="row">
+     <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+       <span class="heading-meta">Experience</span>
+       <h2 class="colorlib-heading animate-box">Work Experience</h2>
      </div>
-     <div class="timeline-label">
-        <h2><a href="#">{{experience.title}} </a> <span>{{experience.startYear}}-{{experience.endYear}}</span></h2>
-        <p>Tolerably earnestly middleton extremely distrusts she boy now not. Add and offered prepare how cordial two promise. Greatly who affixed suppose but enquire compact prepare all put. Added forth chief trees but rooms think may.</p>
-     </div>
-  </div>
-</article>
+   </div>
+   <div class="row">
+     <div class="col-md-12">
+          <div class="timeline-centered">               
+            <article *ngFor="let experience of experiences" class="timeline-entry animate-box" attr.data-animate-effect="{{experience.effect}}">
+               <div class="timeline-entry-inner">
+                  <div class="{{experience.className}}">
+                     <i class="{{experience.iconClass}}"></i>
+                  </div>
+                  <div class="timeline-label">
+                     <h2><a href="#">{{experience.title}} </a> <span>{{experience.startYear}}-{{experience.endYear}}</span></h2>
+                     <p style=" text-align: justify; text-justify: inter-word;">{{experience.description}}</p>
+                  </div>
+               </div>
+             </article>            
+            <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+               <div class="timeline-entry-inner">
+                  <div class="timeline-icon color-none">
+                  </div>
+               </div>
+            </article>
+         </div>
+      </div>
+    </div>
+ </div>
+</section>

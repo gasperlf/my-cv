@@ -5,16 +5,34 @@
         "title" : "Java SSr developer",
         "startYear" : "2017",
         "endYear" : "current",
-        "description" : "",
+        "description" : "Integrating services with IBM ESB, Development and maintained business applications, microservices with Spring. Turn around user story definition into microservices. Used unit and functional testing of various modules using Junit, Mokito and coverage  with Jacoco.",
         "effect" : "fadeInLeft"
     },
     {
         "className": "timeline-icon color-2",
         "iconClass" : "icon-pen2",
-        "title" : "Developer architech",
+        "title" : "Developer architect",
         "startYear" : "2016",
         "endYear" : "2017",
-        "description" : "",
+        "description" : "Java developer working on followint stack of technologies Oracle Database 12c, JSF, CXF, Hibernate, PL/SQL, RabbitMQ, Soap Web Services, Weblogic, Scrum, Jira and java EJB's, jdk 1.6,SVN, Eclipse. ",
+        "effect" : "fadeInRight"
+    },
+    {
+        "className": "timeline-icon color-3",
+        "iconClass" : "icon-pen2",
+        "title" : "Applications system analyst",
+        "startYear" : "2015",
+        "endYear" : "2016",
+        "description" : "I was a Application System Analyst, I development business applications in Java EE, with Informix, SQL server databases, JSF framework, I was in charge of  testing different systems in collaboration with users, unit testing with Junit and code coverage with EcIEmma Eclipse plugin, performing process analysis, design and implementation of software, according to the needs that arise, developing documentation of developed systems to allow easy access and understanding of them arise, asking maintenance of existing information systems in the organization in order to implement solutions or improvements to improvements. ",
+        "effect" : "fadeInLeft"
+    },
+    {
+        "className": "timeline-icon color-4",
+        "iconClass" : "icon-pen2",
+        "title" : "Software developer analyst",
+        "startYear" : "2011",
+        "endYear" : "2015",
+        "description" : "I was a responsible for developing new modules for System academic with technologies like Java, Oracle, jasper report and testing information systems using Jmeter to stress testing, Junit to determine their proper functionality, installing new versions developed information system modules within the Department, in accordance with established protocols, performing process analysis, design and implementation of software, documentation of developed systems to allow easy access, and also others that are allocated on the basis of their functions within the Regulations, Policies, Agreements and Resolutions issued by the governing bodies of the institution. ",
         "effect" : "fadeInRight"
     }
 ]
